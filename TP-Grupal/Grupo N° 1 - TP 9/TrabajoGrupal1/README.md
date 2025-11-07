@@ -226,3 +226,52 @@ git push origin dev
     - Cuando hay seleccionados, aparece la barra de acciones de abajo con los botones definidos en `actions`.
   - Acciones masivas:
     - Al apretar un botón, `handleAction` te arma `selectedData` (filtrando `data` por los `selectedItems`) y llama al `onClick` que definiste en `actions`.
+
+## 📋 Trabajo Práctico - Semana 2
+**Tecnicatura Universitaria en Programación - Comisión 7**  
+**Profesor:** Chocobar Matías  
+**Grupo N° 1**
+
+## Integrantes y Roles 
+
+**Sonzogni Ramiro** Lider
+**Monrroy Agustin** Colaborador
+**Paz Luciana** Colaboradora
+**Varela Merce Luciano** Colaborador
+
+## 1 RELEVAMIENTO — Antes de comenzar a trabajar
+
+**Al abrir el proyecto, se observó lo siguiente:**
+
+**Errores detectados:**
+No se detectaron errores visibles en consola ni fallos de compilación. La aplicación se ejecutó correctamente.
+Únicamente se observó que, al agregar un nuevo miembro, la foto de perfil asignada es aleatoria.
+
+**Faltantes respecto a Semana 1:**
+Ninguno. Todas las carpetas y componentes principales estaban presentes y funcionales.
+
+**Problemas de estructura, naming o dependencias:**
+No se detectaron conflictos en las rutas ni problemas en los imports.
+El proyecto mantiene una estructura organizada por carpetas (components, hooks, services, pages).
+No se encontraron conflictos con dependencias ni advertencias de versión en package.json.
+
+## 2 SOLUCIONES IMPLEMENTADAS + NUEVO AGREGADO
+ **Soluciones aplicadas a problemas detectados**
+
+Se revisó el comportamiento del formulario de nuevos miembros, confirmando que el sistema asigna una foto aleatoria de manera intencional, por lo que no requiere corrección.
+
+**Nuevos requerimientos de Semana 2 agregados**
+
+* Se creó el archivo apiService.js dentro de la carpeta service/, encargado de manejar las peticiones a la API.
+
+* Se creó el hook personalizado useFetch.js dentro de la carpeta hooks/, para facilitar la obtención de datos externos.
+
+* Se agregó el archivo db.json para simular una base de datos local.
+
+* Se realizaron mejoras en el estilo de la página “Deporte”, actualizando su diseño y presentación.
+
+## Observaciones finales
+
+El equipo trabajó de forma coordinada.
+No se detectaron errores graves ni conflictos de código.
+Las nuevas funcionalidades fueron implementadas según los requerimientos de la semana 2.
